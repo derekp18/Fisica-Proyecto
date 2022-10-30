@@ -412,3 +412,37 @@ header.sticky{
         transition: .2s;
     }
 }
+
+.title2{
+    text-align: center;
+}
+
+.title2 h2{
+    font-size: var(--h2-font);
+    line-height: 1.2;
+}
+
+.objetivo2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px , auto));
+    grid-gap:2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.thum2{
+    position: relative;
+    transition: all .3s cubic-bezier(.445, .05, .55, .95);
+    will-change: filter;
+}
+
+.thum2 p{
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.thum2 a:hover{
+    transform: scale(1.1);
+}
